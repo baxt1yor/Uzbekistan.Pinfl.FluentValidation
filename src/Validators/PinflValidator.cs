@@ -37,9 +37,8 @@ public static class PinflValidator
         }
 
         var controlNumber = int.Parse(pinfl[^1].ToString());
-        Console.WriteLine(controlNumber);
         var sum = 0;
-        for (var i = 0; i < 13; i++)
+        for (var i = 0; i < PinflConstants.Length - 1; i++)
         {
             sum += int.Parse(pinfl[i].ToString()) * PinflConstants.ForControlNumber[i % 3];
         }
