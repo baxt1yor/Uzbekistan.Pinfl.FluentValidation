@@ -46,6 +46,5 @@ public static class PinflValidator
         if (sum % 10 == controlNumber) return true;
         errorMessage = "PINFL is invalid.";
         return false;
-
     }
 }
