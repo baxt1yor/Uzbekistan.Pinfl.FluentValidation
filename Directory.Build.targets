@@ -1,0 +1,8 @@
+<Project>
+  <!-- Automatically install Husky hooks after restoring dotnet tools -->
+  <!-- This runs once per solution when any project is restored -->
+  <Target Name="HuskyInstall" AfterTargets="Restore" Condition="Exists('$(MSBuildThisFileDirectory).husky\task-runner.json') AND '$(MSBuildProjectExtension)' == '.csproj'">
+    <Exec Command="dotnet tool restore" WorkingDirectory="$(MSBuildThisFileDirectory)" ContinueOnError="true" />
+    <Exec Command="dotnet husky install" WorkingDirectory="$(MSBuildThisFileDirectory)" ContinueOnError="true" />
+  </Target>
+</Project>

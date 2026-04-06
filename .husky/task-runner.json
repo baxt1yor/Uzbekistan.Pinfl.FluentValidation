@@ -1,0 +1,19 @@
+{
+   "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
+   "tasks": [
+      {
+         "name": "dotnet-format",
+         "group": "pre-commit",
+         "command": "dotnet",
+         "args": ["format", "."],
+         "include": ["**/*.cs", "**/*.vb"]
+      },
+      {
+         "name": "warning-check",
+         "command": "dotnet",
+         "group": "pre-push",
+         "args": ["build", "." /* agar buni qo'shsak warning larni to'g'irlash kerak bo'ladi "/warnaserror"*/],
+         "include": ["**/*.cs", "**/*.vb"]
+      }
+   ]
+}
