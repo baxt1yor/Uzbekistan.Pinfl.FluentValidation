@@ -2,7 +2,7 @@ name: Publish NuGet Package
 
 on:
   push:
-    branches: [ main ] # Faqat main branchga push bo'lganda ishlaydi
+    branches: [ master ] # Faqat master branchga push bo'lganda ishlaydi
   workflow_dispatch: # Manuel (qo'lda) ishga tushirish imkoniyati
 
 jobs:
