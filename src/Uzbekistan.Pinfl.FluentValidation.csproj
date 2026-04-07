@@ -14,9 +14,11 @@
     <PackageProjectUrl>https://github.com/baxt1yor/Uzbekistan.Pinfl.FluentValidation</PackageProjectUrl>
     <RepositoryUrl>https://github.com/baxt1yor/Uzbekistan.Pinfl.FluentValidation</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
