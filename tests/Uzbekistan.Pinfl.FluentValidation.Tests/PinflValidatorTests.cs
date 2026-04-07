@@ -1,7 +1,8 @@
+using FluentValidation;
 using FluentValidation.TestHelper;
-using FluentValidation.Uzbekistan.Extensions;
+using Uzbekistan.Pinfl.FluentValidation.Extensions;
 
-namespace FluentValidation.Uzbekistan.Tests;
+namespace Uzbekistan.Pinfl.FluentValidation.Tests;
 
 public class PinflValidatorTests
 {

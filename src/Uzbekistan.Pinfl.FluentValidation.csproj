@@ -5,14 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>FluentValidation.Uzbekistan</PackageId>
-    <Version>1.0.1-alpha.5</Version>
+    <PackageId>Uzbekistan.Pinfl.FluentValidation</PackageId>
+    <Version>1.0.1</Version>
     <Authors>Baxtiyor</Authors>
     <Description>Uzbekistan-specific validation rules (PINFL) for FluentValidation.</Description>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/baxt1yor/FluentValidation.Uzbekistan</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/baxt1yor/FluentValidation.Uzbekistan</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/baxt1yor/Uzbekistan.Pinfl.FluentValidation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/baxt1yor/Uzbekistan.Pinfl.FluentValidation</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 

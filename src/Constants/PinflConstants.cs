@@ -1,4 +1,4 @@
-namespace FluentValidation.Uzbekistan.Constants;
+namespace Uzbekistan.Pinfl.FluentValidation.Constants;
 
 /// <summary>
 ///     <see href="https://lex.uz/ru/docs/-5955665">Lex.uz</see>

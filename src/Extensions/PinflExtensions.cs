@@ -1,6 +1,7 @@
-using FluentValidation.Uzbekistan.Validators;
+using FluentValidation;
+using Uzbekistan.Pinfl.FluentValidation.Validators;
 
-namespace FluentValidation.Uzbekistan.Extensions;
+namespace Uzbekistan.Pinfl.FluentValidation.Extensions;
 
 public static class PinflExtensions
 {

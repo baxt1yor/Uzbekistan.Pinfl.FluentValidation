@@ -1,4 +1,4 @@
-namespace FluentValidation.Uzbekistan.Constants;
+namespace Uzbekistan.Pinfl.FluentValidation.Constants;
 
 public record PinflCenturyRule(int BaseYear, bool IsMale);
 

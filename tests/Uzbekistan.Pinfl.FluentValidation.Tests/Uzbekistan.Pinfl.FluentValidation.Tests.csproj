@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
+    <RootNamespace>Uzbekistan.Pinfl.FluentValidation.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\FluentValidation.Uzbekistan.csproj" />
+    <ProjectReference Include="..\..\src\Uzbekistan.Pinfl.FluentValidation.csproj" />
   </ItemGroup>
 
 </Project>
