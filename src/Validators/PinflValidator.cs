@@ -25,8 +25,7 @@ internal static class PinflValidator
         {
             var day = int.Parse(pinfl.Substring(1, 2));
             var month = int.Parse(pinfl.Substring(3, 2));
-            var yearSuffix = int.Parse(pinfl.Substring(5, 2));
-            var fullYear = rule.BaseYear + yearSuffix;
+            var fullYear = int.Parse(string.Concat(rule.BaseYear, pinfl.AsSpan(5, 2)));
 
             if (month is < 1 or > 12 || day < 1 || day > DateTime.DaysInMonth(fullYear, month)) throw new Exception();
         }
